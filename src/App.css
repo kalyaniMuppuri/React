@@ -1,0 +1,311 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*--------------------------------------------------------*/
+
+
+/* book concept */
+ /**{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  background-color: white;
+}
+
+.book-list{
+  margin:20px;
+  width:50%;
+  padding:20px;
+  border-radius: 20px;
+   background-color: rgb(152, 152, 158);
+    box-shadow:insert o o 10px rgb(0,0,0,0.1);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  gap:50px;
+}
+
+.book{
+  width:220px;
+  padding:15px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px;
+  text-align: center;
+  justify-content: center;
+   overflow: hidden;
+}
+
+.book img{
+  width:150px;
+ height: 220px;
+ margin:auto;
+  object-fit: cover;
+  border-radius: 10px;
+
+
+}
+h1{
+  text-align: center;
+}
+h5{
+  font-size: 20px;
+}*/
+
+/*----------------------------------------------------------------*/
+
+/* LikeButton styles */
+
+/*button{
+  background-color: green;
+  color:white;
+  padding:10px 20px;
+  border:none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: darkgreen;
+}*/
+
+/*-------------------------------------------------------------*/
+
+/* IncrementDecremennt styles*/
+
+/*button{
+  background-color:blue;
+  color:white;
+  padding:10px 20px;
+  border:none;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+button:hover{
+  background-color:darkblue;
+}
+button:disabled{
+  background-color: gray;
+  color:white;
+}*/
+
+
+/*----------------------------------------------------------------*/
+
+/*ToDoList styles*/
+
+
+/*.add-button{
+  background-color:rgb(21, 236, 71);
+  color:white;
+  padding:10px 20px;
+  border:none;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.add-button:hover{
+  background-color:darkblue;
+}
+.delete-button{
+  background-color:rgb(6, 13, 140);
+  color:white;
+  padding:10px 20px;
+  border:none;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.delete-button:hover{
+  background-color:red;
+}
+ul{
+  font-size: 30px;
+}*/
+
+
+/* Register Form */
+/*button{
+  width: 100px;
+  background-color:royalblue;
+  color:white;
+  padding:10px;
+  border:none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+button:hover{
+  background-color:green;
+}
+h2{
+  color: black;
+  font-size: 20px;
+}*/
+
+/*------------------------------------------------------------------*/
+
+/*using callbacks child to parent*/
+/*TaskManger*/
+/*.App{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.container{
+  background-color: rgb(99, 97, 97);
+  width:80vw;
+  height: 90vh;
+  border-radius: 30px;
+  box-shadow:insert o o 10px rgb(0,0,0,0.1);
+}
+.input-container{
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:10px;
+  width:80%;
+  margin-top: 20px;
+  
+}
+.input{
+ 
+  width:350px;
+  height: 25px;
+  border-radius: 5px;
+  border: rgb(211,226,235);
+}
+.input::placeholder{
+  color: black;
+  font-size: larger;
+  
+}
+.toggle-container{
+  width: 100%;
+  display:flex;
+  justify-content: end;
+  align-items: center;
+  padding: 16px 20px 0;
+  box-sizing: border-box;
+}
+
+.toggle-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  line-height: 0;
+}
+
+.light-bg{
+  background-color: #ebeff0;
+}
+.dark-bg{
+  background-color: #282c34;
+}
+.btn{
+  width: 50px;
+  height: 28px;
+  margin-left: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+}
+.btn-add{
+  background-color:green;
+}
+.btn-delete{
+  background-color:red;
+}
+
+.task-list{
+  background-color:purple;
+  margin: 20px;
+  height: 65vh;
+  border-radius: 20px;
+}
+.task-item{
+  display:flex;
+  margin: 20px;
+  align-items: center;
+}
+.task{
+  margin-left: 20px;
+  margin-right: 50px;
+}
+
+.task-completed{
+  text-decoration:line-through;
+}*/
+
+/*--------------------------------------------------------------*/
+
+/*context API*/
+/*1.ThemeButton*/
+/*.light{
+  background-color: #282c34;
+  color:white;
+  min-height: 100vh;
+}
+.dark{
+  background-color:rgb(176, 176, 240);
+  color:white;
+  min-height: 100vh;
+}*/
+
+/*custom hook:-counter */
+
+/*.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  text-align: center;
+}*/
